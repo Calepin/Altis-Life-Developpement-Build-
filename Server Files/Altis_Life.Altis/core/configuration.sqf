@@ -103,6 +103,14 @@ switch (playerSide) do
 };
 
 /*
+*********************************************
+****** Custom Variables - FAER System *******
+*********************************************
+*/
+
+speeding_points = 0;
+
+/*
 	Master Array of items?
 */
 life_vShop_rentalOnly = ["B_MRAP_01_hmg_F","B_G_Offroad_01_armed_F"];
@@ -187,7 +195,8 @@ life_licenses =
 	["license_civ_salt","civ"],
 	["license_civ_cement","civ"],
 	["license_med_air","med"],
-	["license_civ_home","civ"]
+	["license_civ_home","civ"],
+    ["license_civ_adac","civ"]
 ];
 
 //Setup License Variables

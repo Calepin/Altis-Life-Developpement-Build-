@@ -13,22 +13,16 @@ class Socket_Reciever
 	};
 };
 
-class SpyGlass
-{
-	tag = "SPY";
-	class Functions
+class Depanneur
 	{
-		file = "SpyGlass";
-		class cmdMenuCheck{};
-		class cookieJar{};
-		class menuCheck{};
-		class notifyAdmins{};
-		class observe{};
-		class payLoad{};
-		class variableCheck{};
-		class initSpy {};
-	};
-};
+		file = "scripts\adac";
+		class attacher {};
+		class detacher {};
+		class remorquage_gagner_argent {};
+		class dep_impound {};
+		class dsirenLights {};
+		class depLights {};
+	}
 
 class Life_Client_Core
 {
@@ -219,6 +213,7 @@ class Life_Client_Core
 		class saveGear {};
 		class loadGear {};
 		class stripDownPlayer {};
+        class BipBipCamion {};
 	};
 	
 	class Network

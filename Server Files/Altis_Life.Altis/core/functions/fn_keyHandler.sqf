@@ -120,6 +120,20 @@ switch (_code) do
 			};
 		};
 	};
+    
+    case 31:
+    {
+	if ((BipBipOn) and (vehicle player != player && (typeOf vehicle player) in ["C_Van_01_transport_F"])) then {
+		_Automobile = [vehicle player,0] call BIS_fnc_param;
+		_VitesseX = speed _Automobile;
+		
+		if (_VitesseX < 0) then {
+			BipBipOn = false;
+			publicVariable "BipBipOn";
+			[[_Automobile,1],"life_fnc_BipBipCamion"] call life_fnc_MP;
+		  };
+	   };
+    };
 
 	//T Key (Trunk)
 	case 20:

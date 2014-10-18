@@ -1,5 +1,5 @@
-author = "Tonic";
-onLoadName = "Altis Life RPG v3.1.4.8";
+author = "Gordon";
+onLoadName = "Altis Life RPG v3.1.4.8 GITHUB";
 onLoadMission = "A RPG game mode developed by Tonic";
 joinUnassigned = 1;
 respawn = BASE;
@@ -60,6 +60,13 @@ class CfgSounds
 		sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
 		titles[] = {};
 	};
+    
+     class bipbip_camion
+    {
+        name = "bipbip_camion";
+        sound[] = {"\sounds\bipbip.ogg", 1.0, 1};
+        titles[] = {};
+    }; 
 };
 
 class CfgDebriefing
